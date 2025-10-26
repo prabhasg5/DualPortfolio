@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabhas Mekala - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="developer-mode">
+    <nav>
+        <div class="logo" id="logo">
+            <span class="logo-text-1">Prabhas</span><span class="logo-dot">.</span><span class="logo-text-2" id="logoSuffix">dev</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+            <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            
+        </div>
+    </nav>
+
+    <div class="stars" id="stars"></div>
+    <!-- Petals container: visible/animated only in creative mode -->
+    <div class="petals" id="petals" aria-hidden="true"></div>
+
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <div class="hero-greeting">Hello, I'm</div>
+            <h1 class="hero-title" id="heroTitle">
+                Prabhas <span class="hero-title-highlight" id="heroHighlight">— AI & Web</span><br>
+                <span id="heroRole">Developer</span>
+            </h1>
+            <p class="hero-description" id="heroDescription">
+                Building innovative solutions at the intersection of AI and web development. 
+                Passionate about creating tools that make learning and productivity more accessible.
+            </p>
+            <div class="hero-buttons">
+                <button class="hero-btn primary-btn" onclick="window.open('Resume.pdf', '_blank')" >My Resume <i class="fas fa-arrow-right"></i></button>
+                <button class="hero-btn secondary-btn" onclick="window.location.hash = '#contact'">Get in Touch</button>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/prabhasg5" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/prabhasmekala/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/prabha_infinity/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> -->
+            </div>
+        </div>
+        <div class="profile-container">
+            <img src="rofile_bg.png" alt="Prabhas Mekala" class="profile-photo">
+            <!-- Creative-mode hero placeholder (hidden by default) -->
+            <img src="creative_profile.png" alt="Creative Hero" class="profile-photo creative-photo" aria-hidden="true">
+        </div>
+
+        <div class="floating-elements">
+            <div class="floating-element floating-circle circle-1"></div>
+            <div class="floating-element floating-circle circle-2"></div>
+            <div class="floating-element floating-circle circle-3"></div>
+        </div>
+    </section>
+    <!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-image">
+                <img src="DSC_9345.JPG" alt="About Prabhas" class="about-photo">
+                <!-- Creative-mode about placeholder (hidden by default) -->
+                <img src="stage_speak.png" alt="Creative About" class="about-photo creative-about-photo" aria-hidden="true">
+                <div class="about-blob"></div>
+            </div>
+            
+            <div class="about-text">
+                <div class="dev-content">
+                    <h3>AI & Web Developer</h3>
+                    <p>I'm a passionate IT student at Velagapudi Ramakrishna Siddhartha Engineering College, set to graduate in 2027. My journey in tech is driven by a fascination with innovative solutions that combine AI and web development.</p>
+                    <p>With a strong foundation in data structures, algorithms, and programming languages like Python and Java, I'm continuously expanding my knowledge through practical projects and competitive problem-solving.</p>
+                    <p>My goal is to build technology that makes learning and productivity more accessible while pushing the boundaries of what's possible in AI-enhanced web applications.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">140+</span>
+                            <span class="stat-label">Problems Solved</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7th</span>
+                            <span class="stat-label">Rank in National Hackathon<br>(Bits - Goa)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="creative-content">
+                    <h3>Designer & Content Creator</h3>
+                    <p>Beyond coding, I have a deep passion for visual storytelling and digital design. With over 3 years of experience as a freelance photo editor and video editor, I've developed an eye for composition, color, and visual impact.</p>
+                    <p>I blend technical precision with artistic expression to create compelling visual narratives that engage and captivate audiences. My expertise in Adobe Creative Suite allows me to transform ideas into polished digital content.</p>
+                    <p>Whether it's crafting short-form videos, editing photos, or designing user interfaces, I approach each creative project with enthusiasm and attention to detail.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Design Tools</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <!-- <div class="projects-filter dev-content">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="ar">AR</button>
+        </div> -->
+        
+        <!-- <div class="projects-filter creative-content">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="photo">Photo Editing</button>
+            <button class="filter-btn" data-filter="video">Video</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div> -->
+        
+        <div class="projects-grid">
+            <!-- Developer Projects -->
+            <div class="project-card dev-content" data-category="ai web">
+                <div class="project-img">
+                    <img src="study_buddy.png" alt="Study Buddy Project">
+                </div>
+                <div class="project-info">
+                    <h3>Study Buddy</h3>
+                    <p>Personalized AI tutor with 3D avatar that speaks in real time, providing visual explanations and customized learning paths.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Three.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        <a href="https://github.com/prabhasg5/PREPfessor" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card dev-content" data-category="web ar">
+                <div class="project-img">
+                    <img src="roomify.png" alt="Roomify Project">
+                </div>
+                <div class="project-info">
+                    <h3>Roomify</h3>
+                    <p>Interior design platform with 3D workspace for creating and visualizing designs with real-time AR and AI-generated room recommendations.</p>
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>Three.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card dev-content" data-category="ar">
+                <div class="project-img">
+                    <img src="ar_jwellery.png" alt="AR Jewelry Try-on">
+                </div>
+                <div class="project-info">
+                    <h3>AR Jewelry Try-on</h3>
+                    <p>Augmented reality application allowing users to virtually try on jewelry in real-time using smartphone or webcam.</p>
+                    <div class="project-tags">
+                        <span>ARKit</span>
+                        <span>ARCore</span>
+                        <span>Three.js</span>
+                        <span>React</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a> -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Creative Projects -->
+            <div class="project-card creative-content" data-category="video">
+                <div class="project-img">
+                    <img src="fashion Retouching 1.jpg" alt="Event Highlight Video">
+                </div>
+                <div class="project-info">
+                    <h3>Event Highlight Videos</h3>
+                    <p>Dynamic video edits capturing the essence of events, with engaging transitions and synchronization with music.</p>
+                    <div class="project-tags">
+                        <span>Premiere Pro</span>
+                        <span>After Effects</span>
+                        <span>Storytelling</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-youtube"></i> Watch</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card creative-content" data-category="photo">
+                <div class="project-img">
+                    <img src="fashion retouching 5.jpg" alt="Photo Retouching">
+                </div>
+                <div class="project-info">
+                    <h3>Portrait Retouching</h3>
+                    <p>Professional photo editing with precise color grading, skin retouching, and enhancement while maintaining natural appearance.</p>
+                    <div class="project-tags">
+                        <span>Photoshop</span>
+                        <span>Lightroom</span>
+                        <span>Color Grading</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-images"></i> Gallery</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card creative-content" data-category="design">
+                <div class="project-img">
+                    <img src="man at window look 1 (sunset).jpg" alt="Digital Illustrations">
+                </div>
+                <div class="project-info">
+                    <h3>Digital Illustrations</h3>
+                    <p>Custom digital illustrations and graphics created for various clients and personal projects.</p>
+                    <div class="project-tags">
+                        <span>Illustrator</span>
+                        <span>Digital Art</span>
+                        <span>Branding</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-palette"></i> View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="skills-content">
+            <div class="dev-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                                <div class="skill-info">
+                                    <h4>Python</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-java"></i></div>
+                                <div class="skill-info">
+                                    <h4>Java</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                                <div class="skill-info">
+                                    <h4>C</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <div class="skill-info">
+                                    <h4>HTML5</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>CSS3</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>Git</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <div class="skill-info">
+                                    <h4>MySQL</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                                <div class="skill-info">
+                                    <h4>Machine Learning</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 55%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="creative-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Design Software</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-image"></i></div>
+                                <div class="skill-info">
+                                    <h4>Photoshop</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-video"></i></div>
+                                <div class="skill-info">
+                                    <h4>Premiere Pro</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-film"></i></div>
+                                <div class="skill-info">
+                                    <h4>After Effects</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Creative Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-crop"></i></div>
+                                <div class="skill-info">
+                                    <h4>Photo Editing</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-cut"></i></div>
+                                <div class="skill-info">
+                                    <h4>Video Editing</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-object-group"></i></div>
+                                <div class="skill-info">
+                                    <h4>Digital Design</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Additional Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                                <div class="skill-info">
+                                    <h4>UI Design</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                                <div class="skill-info">
+                                    <h4>Color Theory</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-camera"></i></div>
+                                <div class="skill-info">
+                                    <h4>Photography</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Interested in working together or have a question? Feel free to reach out to me through any of these channels.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>prabhasmekala1@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Vijayawada, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <a href="https://github.com/prabhasg5" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prabhasmekala/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/prabha_infinity/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> -->
+                </div>
+            </div>
+            
+            
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">
+                    <span class="logo-text-1">Prabhas</span><span class="logo-dot"> </span><span class="logo-text-2" id="footerLogoSuffix">Mekala</span>
+                </div>
+                <p>Building at the intersection of technology and creativity.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://github.com/prabhasg5" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/prabhasmekala/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/prabha_infinity/" target="_blank">Instagram</a></li>
+                        <!-- <li><a href="#" target="_blank">Twitter</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prabhas Mekala. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<div class="bottom-toggle" id="bottomModeToggle">
+    <div class="toggle-thumb" id="bottomToggleThumb">
+        <i class="fas fa-code" id="bottomModeIcon"></i>
+    </div>
+</div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
